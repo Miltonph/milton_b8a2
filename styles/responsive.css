@@ -1,0 +1,110 @@
+/* Responsive styles */
+
+/* Mobile Devices */
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:425px) {   
+    nav, .nav-manu, .bannar, .we-are-gamer, .terms-and-conditions, .games-type-name, .career, .icons-list, .online-games-card, .play-instantly, .play-gamers {
+        flex-direction: column;
+    }
+    .play-like, .goat-p, .bannar-right, .we-are-gamer-left, .we-are, .we-are-p, .purpose, .unleash{
+        width: 425px;
+        padding: 0 20px;
+    }
+    .online-games-header-h {
+        width: 420px;
+        font-size: 25px;
+    }
+    .online-games-p, .career-left, .footer, .career-right, .play-gamers-header{
+        width: 420px;
+    }
+    .play-instantly, .career-right{
+        align-items: normal;
+    }    
+    .career-left, .career-right{
+        background-color: #f863b0;
+    }
+    .icons-list, .games-type-name{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);        
+        margin-left: 150px;
+    }
+    .footer{    
+        background-color: #211b31;
+    }
+    .games-type-name, .terms-and-conditions{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);        
+        margin-left: 150px;
+    }
+    .footer-foot{
+        margin-left: 180px;
+    }
+    .icon-hover:hover{
+        border: 1px solid #f863b0;
+        border-radius: 35%;
+        color: #f863b0;
+    }
+    .footer-icon{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 150px;
+    }
+}
+
+
+    
+   /* Tablet Device View */
+
+@media screen and (min-width:425px) and (max-width:768px) {
+    nav, .bannar, .we-are-gamer, .online-games-card, .play-instantly, .play-gamers, .career {
+        flex-direction: column;
+    }
+    .play-like, .goat-p, .bannar-right, .we-are-gamer-left, .we-are, .we-are-p, .purpose, .unleash{
+        width: 400px;
+    }
+    .we-are-gamer-right{
+        margin-right: 250px;
+    }
+    .play-like{
+        font-size: 25px;
+    }
+    .online-games-header-h {
+        width: 420px;
+        font-size: 25px;
+    }
+    .online-games-p, .career-left, .footer, .career-right, .play-gamers-header{
+        width: 420px;
+    }
+    .play-instantly, .career-right{
+        align-items: normal;
+    }    
+    .career-left, .career-right{
+        background-color: #f863b0;
+    }
+    .icons-list, .games-type-name{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);        
+        margin-left: 150px;
+    }
+    .footer{    
+        background-color: #211b31;
+    }
+    .games-type-name, .terms-and-conditions{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);        
+        margin-left: 150px;
+    }
+    .footer-foot{
+        margin-left: 180px;
+    }
+    .footer-icon{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 150px;
+    }
+}
+    

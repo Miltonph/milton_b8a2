@@ -1,0 +1,376 @@
+/* common shared styles*/
+body {
+    font-family: 'Work Sans', sans-serif;
+    max-width: 1920px;
+    margin: 0 120px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav style start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px 0px 0;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;  
+}
+#nav-logo{
+    width: 60px;
+    height: 30px;
+}
+.nav-logo-g{
+    color: #f863b0;
+    padding-left: 5px;
+}
+#nav-logo-g{    
+    font-size: 25px;
+    font-weight: 700;
+}
+.nav-manu {
+    display: flex;
+    align-items: center;
+    list-style: none;    
+    font-size: 16px;
+    font-weight: 500;    
+    color: #3C354F;
+    
+}
+.manu, .manu>li{
+    padding-right: 20px;    
+}
+.nav-manu a{
+    text-decoration: none;    
+}
+.fa-youtube{
+    color: red;
+    
+}
+/*  */
+.manu-icon{
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 5px 5px;
+   justify-content: space-between;
+}
+
+/* Bannar Style Start */
+.play-like{
+    font-size: 38px;
+    font-weight: 600;
+    padding-bottom: 0;
+    margin-bottom: 0;    
+}
+.goat{
+    font-size: 65px;
+    font-weight: 800;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.goat-p{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;    
+}
+.p{
+    margin-bottom: 25px;
+}
+.fa-regular,  .fa-solid{
+    margin: 5px;
+    font-size: 15px;
+    color: #FF42A5;
+}
+
+.btn-bannar-primary{    
+    border-radius: 35px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 12px 18px;
+}
+.btn-1{
+    background-color: #FF42A5;
+}
+.btn-2{
+    background-color: #8872eb;
+}
+.bannar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    gap: 50px;
+}
+.bannar-left{
+    background-image: url(../images/Group-14.png4.png);
+    width: 50%;
+}
+.bannar-right{
+    width: 50%;
+}
+
+/* We are gamer : start */
+.we-are-gamer{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+.we-are-gamer-left{    
+    width: 50%;
+}
+.we-are-gamer-right{
+    text-align: right;
+    width: 50%;
+}
+.we-are{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.we-are-p{
+    margin-top: 5px;
+}
+.purpose{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+.unleash{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Online Games Funny Videos Styles Start  */
+.online-games{
+    margin-bottom: 50px;
+}
+.online-games-header{
+    text-align: center;
+}
+.online-games-header-h{    
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+}
+.online-games-header-red{
+    color: #f863b0;
+}
+.online-games-p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.online-games-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    gap: 10px;
+}
+.hover-video{
+    position: relative;
+    padding: 20px;
+    background-color: #131010;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hover-video:hover::before {
+    content: "Watch Now";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #131010;
+    background-color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.hover-video:hover::after {
+    content: "../images/YouTube-Logo.wine.png"; /
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #007bff;
+}
+
+/* Play Instantly, No Downloads  No Installs. */
+.play-instantly{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    gap: 180px;
+    margin-bottom: 200px;
+}
+.play-instantly-left{
+    width: calc((100%-20px)/2);
+    text-align: right;
+}
+.play-instantly-right{
+    width: calc((100%-20px)/2);
+    position: relative;
+}
+.play-instantly-child{
+    position: absolute;
+    bottom: -150px;
+    left: -170px;
+}
+.play-instantly-header-red{
+    color: #FF42A5;
+}
+
+/* Play Games Online Anywhere, Anytime! */
+.play-gamers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    gap: 150px;
+}
+.play-gamers-left{
+    width: calc((100%-20px)/2);
+    position: relative;
+}
+.play-gamers-child{
+    position: absolute;
+    bottom: -150px;
+    left: 510px;
+}
+.play-gamers-right{
+    width: calc((100%-20px)/2);
+}
+.play-gamers-header{
+    text-align: left;
+}
+.play-gamers-header-red{
+    color: #FF42A5;
+}
+
+/* Career Section Styles Start */
+.career{
+    background-color: #f863b0;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+.career-head{
+    margin-left: 50px;
+}
+.career-descrip{
+    text-align: justify;
+    margin-left: 50px;
+}
+.career-left{
+    width: 50%;
+}
+.career-right{
+    width: 50%;
+
+}
+.career-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+.career-p2{
+    text-align: right;
+}
+.btn-5{
+    margin: 50px;
+    color: #f863b0;
+    background-color: white;
+}
+
+/* Icons Style Start */
+.icons-list{
+    margin: 50px 0 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.icon{
+    display: flex;       
+}
+.icon-p{
+    margin-left: 10px;
+}
+.icon-hover:hover{
+    border: 1px solid #f863b0;
+    border-radius: 35%;
+    color: #f863b0;
+    
+
+}
+
+/* Footer Styles Start */
+.footer{    
+    background-color: #211b31;
+}
+.footer-area{
+    padding: 50px 0;   
+
+}
+.footer-header{
+    display: flex;
+    align-items: center;
+    margin-left: 45%;
+    padding: 0;
+}
+.footer-logo{
+    width: 60px;
+    height: 30px;
+}
+#footer-logo-g{
+    font-size: 30px;    
+}
+.white{
+    color: white;
+}
+.footer-logo-g{
+    color: #f863b0;
+    padding-left: 5px;
+}
+.games-type-name{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(241, 227, 227);
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+.footer-icon{
+    margin: 30px 0;
+    text-align: center;
+}
+.fa-brands, .fa-solid{
+    margin-right: 50px;
+    font-size: 30px;
+
+}
+.terms-and-conditions{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(82, 83, 83);
+    font-weight: 400;
+}
+.footer-foot{
+    color: rgb(82, 83, 83);
+    font-weight: 400;
+    text-align: center;
+}
